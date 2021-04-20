@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<! INTRO TO HTML : DOCTYPE html should always be there to let the browser know what html this is>
+
+<! STRUCTURE : HTML [ Head [title...] + Body [header, paragraph, button, image...] ]>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Liam First HTML</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <p><strong>This is my first web page</strong></p>
+
+        <!All anime pictures that link to that anime fan page?>
+        <!Hunter x Hunter>
+        <div> <!div divides the webpage into section grouped together - elements in a div are nested elements>
+            <button>
+                <a href="https://thatsthefinger.com/">
+                    <img src="https://media.s-bol.com/x6NKLoD3wVO9/550x825.jpg" alt="Hunter x Hunter" width="300" height="500">
+                </a>
+            </button>
+            <!One piece>
+            <button>
+                <a href="https://thatsthefinger.com/">
+                    <img src="https://media.s-bol.com/7po4E5NqjQmr/550x775.jpg" alt="One piece" width="300" height="500">
+                </a>
+            </button>
+            <!Deathnote>
+            <button>
+                <a href="https://thatsthefinger.com/">
+                    <img src="https://static.posters.cz/image/750/posters/death-note-from-the-shadows-i58005.jpg" alt="Deathnote" width="300" height="500">
+                </a>
+            </button>
+
+            <br><br>
+
+            <button>
+                <a href="https://thatsthefinger.com/">FUCK YOU</a>
+            </button>
+        </div>
+
+        <div>
+            <! input element is again an empty tag>
+            <label>
+                <input type="password" placeholder="Password">
+            </label> <! the type standard is text - password makes the typed characters invisible>
+
+            <! ol is an ordered list>
+            <ol>
+                <li>Number 1</li>
+                <li>Number 2</li>
+                <li>Number 3</li>
+            </ol>
+
+            <! ul is an unordered list - bullet points>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+
+            <! list elements can contain more - images, links, nested lists ...>
+            <ul>
+                <li>
+                    <a href="https://weather.com">Weather</a>
+                    <ol>
+                        <li>Max is a biatch</li>
+                        <li>and a whore.</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
